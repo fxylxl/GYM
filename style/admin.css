@@ -1,0 +1,278 @@
+@CHARSET "UTF-8";
+
+body,h1,h2,h3,p,form,ol,ul,li,dl,dt,dd{
+	padding:0;
+	margin:0;
+}
+body{
+	background:#fff;
+	font-size:12px;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+ul,ol{
+	list-style-type:none;
+}
+
+#top{
+	background-color:#9F0004;
+	color:#fff;
+}
+
+#top h1{
+	width:150px;
+	height:80px;
+	font-size:12px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	float:left;
+	margin-left:15px;
+}
+#top ul{
+	float:left;
+	padding-left:10px;
+	padding-top:47px;
+}
+#top ul li{
+	float:left; 
+	margin-right:10px;
+}
+#top ul li a{
+	width:60px;
+	height:33px;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	line-height:33px;
+	background-image:url(../images/top_li_bg.png);
+	background-repeat:no-repeat;
+	background-position:left bottom;
+}
+#top ul li a .selected{
+	background-position:right bottom;
+	color:#9F0004;
+}
+#top p{
+	float:right;
+	padding-top:55px;
+	padding-right:15px;
+}
+#top p a{
+	text-decoration:none;
+	color:#fff;
+}
+#top p a:hover{
+	text-decoration:underline;
+}
+#sidebar{
+	background:#f7fbfc;
+	
+}
+#sidebar dl{
+	padding:10px;
+	text-indent:2px;
+}
+#sidebar dl dt{
+	font-size:14px;
+	color:#3b6ea5;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+	padding:5px 0;
+	margin:5px 0;
+}
+#sidebar dl dd{
+	height:22px;
+	line-height:22px;	
+}
+#sidebar dl dd a{
+	color:#333;
+}
+
+#sidebar dl dd a:hover{
+	text-decoration:underline;
+}
+#main  .map{
+	padding:15px;
+	color:#333;
+}
+#main  .map strong{
+	color:green;
+}
+#main table{
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+#main table table {
+	width:100%;
+	text-align:left;
+}
+#main table.cke_dialog {
+	width:auto;
+}
+#main  .left{
+	text-align:left;
+}
+#main table th, #main table td{
+	height:30px;
+	ling-height:30px;
+	color:#333;
+}
+#main table tr{
+	background:#fff;
+}
+#main table tr:hover{
+	background:#ffffcc;
+}
+#main table th{
+	background:#eef3f7;
+	border-bottom:1px solid #d5dfe8;
+}
+#main table td{
+	border-bottom:1px solid #eee;
+}
+#main table tr.ckeditor {
+	background:none;
+}
+#main table tr.ckeditor  tr {
+		background:none;
+}
+#main table.cke_dialog  tr{
+			background:none;
+}
+#main  a{
+	text-decoration:none;
+	color:#0689ea;
+}
+#main table.content  td {
+	text-align:left;
+	padding-left:5px;
+}
+#main table.content  td span.red{
+	color:red;
+}
+
+#main table.content  td input.text {
+	width:440px;
+}
+#main table.content  td input.small {
+	width:100px;
+}
+#main table.content  td select {
+	border: 1px solid #ccc;
+	width:150px;
+	height:22px;
+}
+#main table.content  td textarea {
+	margin:0;
+	width:440px;
+	height:100px;
+	
+} 
+#main table.content  td span.middle{
+	vertical-align: 50px;
+}
+
+
+#main a:hover{
+	text-decoration:underline;
+}
+#main .center{
+	text-align:center;
+	padding:20px;
+}
+#main form input .text{
+	width:220px;
+	height:19px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+#main form select{
+	font-size:12px;
+	width:100px;
+	height:19px;
+	background:#fff;
+}
+#main form textarea {
+	font-size:13px;
+	width:220px;
+	height:100px;
+	background:#fff;
+	border:1px solid #ccc;
+	margin-left:60px;
+}
+#main  form  .submit{
+	font-size:12px;
+	cursor:pointer;
+	margin-left:60px;
+}
+
+#main ol{
+	padding:0 0 0 35px;
+	height:35px;
+}
+#main ol li{
+	float:left;
+	padding: 0 10px 0 0;
+}
+#main ol li a{
+	padding:5px;
+	display:block;
+}
+#main ol li a:hover{
+	background:#eee;
+}
+#main ol li a.selected{
+	background:#3b6da5;
+	color:#fff;
+}
+
+#page {
+	text-align:center;
+	padding:10px;
+	
+}
+#page a {
+	border:1px solid #9F0004;
+	padding:2px 5px;
+	margin:0 2px;
+	color:#9F0004;
+}
+#page a:hover , #page  span.me{
+	color:#fff;
+	border:1px solid #9F0004;
+	background:#9F0004;
+	text-decoration:none;
+}
+#page  span.disabled {
+	border:1px solid #ccc;
+	padding:2px 5px;
+	margin:0 2px;
+	color:#ccc;
+}
+#page  span.me {
+	padding:2px 5px;
+	margin:0 2px;
+}
+#page select.select {
+	width:120px;
+	background:#fff;
+	border:solid 1px #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,250 @@
+@CHARSET "UTF-8";
+
+.main {
+	overflow:hidden;
+	width:1150px;
+	margin:30px auto;
+
+}
+#trade {
+	height:630px;
+	width:940px;
+	float:left;
+	border:1px solid #e8e8e8;
+	border-right:none;
+	overflow:hidden;
+}
+#trade .picture {
+	float:left;
+	width:400px;
+	height:400px;
+	margin:20px;
+
+}
+#trade .picture img {
+	width:100%;
+	height:auto;
+}
+#trade .details {
+	float:left;
+	width:450px;
+	height:400px;
+	margin-top:20px;
+	margin-left:30px;
+
+}
+#trade .details .goods_name {
+	font-size:20px;
+	letter-spacing:2px;
+	line-height:25px;
+}
+#trade .collection {
+
+	width:370px;
+	text-align:right;
+}
+#trade .collection input {
+	background:none;
+	color:red;
+	border:none;
+	cursor:pointer;	
+}
+
+ .price, .freight, .size, .color ,.number{
+	margin:10px 0;
+ 	letter-spacing:1px;
+ 	background:#fff9f5;
+ 	border:1px solid #fff2e8;
+}
+#trade .details .price span {
+	color:red;
+	font-size:26px;
+}
+#trade .details .size{
+	overflow:hidden;
+}
+#trade .details .size ul{
+	float:left;
+	overflow:hidden;
+}
+#trade .details .size li{
+	float:left;
+	border:1px solid red;
+	font-size:15px;
+	height:20px;
+	width:30px;
+	padding:0;
+	margin:0 3px;
+}
+#trade .details .size span {
+	float:left;
+}
+#trade .details .number input {
+	width:40px;
+	text-align:center;
+}
+#trade .details p.p1{
+	overflow:hidden;
+}
+
+#trade .details .joincart {
+	float:left;
+	width:133px;
+	height:38px;
+	border:1px solid #f0cab6;
+	background:#ffe4d0;
+	color:red;
+	cursor:pointer;
+}
+#trade .details  .collection {
+	float:left;
+	width:133px;
+	height:38px;
+	background:red;
+	border:1px solid red;
+	color:#fff;
+	line-height:38px;
+	text-align:center;
+	cursor:pointer;
+	margin-left:20px;
+	font-size:12px;
+}
+
+
+#sidebar {
+	height:630px;
+	width:200px;
+	border:1px solid #e8e8e8;
+	float:left;
+}
+
+#sidebar .titleb {
+	color:#a4acb8;
+	font-size:12px;
+	text-align:center;
+	line-height:40px;
+}
+#sidebar .side{
+	position:relative;
+	overflow:hidden;
+}
+#sidebar .side  li {
+	width:140px;
+	height:140px;
+	border:1px solid #e8e8e8;
+	margin:0px 0px 30px 30px;
+}
+
+#sidebar .side  li img {
+	width:100%;
+	height:auto;
+	z-index:-1;
+}
+#sidebar .side .price {
+	line-height:30px;
+	background:#fff;
+	opacity:0.6;
+    position:absolute;
+    bottom:-10px;
+	width:140px;
+	text-align:center;
+	color:red;
+	border:none;
+}
+
+#trade .details .bn {
+	overflow:hidden;
+}
+#trade .details .bn .num {
+	float:left;
+	
+}
+#trade .details .bn .gw_num {
+	float:left;
+	margin-left:10px;
+}
+#trade .details .gw_num{
+	border: 1px solid #dbdbdb;
+	width: 110px;
+	line-height: 26px;
+	overflow: hidden;
+
+}
+#trade .details .gw_num:hover {
+	border:1px solid  #9F0004;
+}
+#trade .details .gw_num em{
+	display: block;
+	height: 26px;
+	width: 26px;
+	float: left;
+	color: #7A7979;
+	border-right: 1px solid #dbdbdb;
+	text-align: center;
+	cursor: pointer;
+}
+#trade .details .gw_num em:hover {
+	color:#9F0004;
+	border-right:1px solid #9F0004;
+}
+#trade .details .gw_num .num{
+	display: block;
+	float: left;
+	text-align: center;
+	width: 52px;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 24px;
+	border: 0;
+	color:#9F0004;
+}
+#trade .details .gw_num em.add{
+	float: right;
+	border-right: 0;
+	border-left: 1px solid #dbdbdb;
+}
+#trade .details .gw_num em.add:hover {
+	border-left:1px solid #9F0004;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

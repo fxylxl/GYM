@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+body,h1,h2,h3,p,form,ul,li,dl,dt,dd{
+	margin:0;
+	padding:0;
+	color:#666;
+}
+h2{
+	text-align:center;
+	margin-top:180px;
+	margin-bottom:30px;
+}
+#persen{
+	width:290px;
+	height:600px;
+	margin:0 auto;
+
+}
+
+#persen form{
+	
+}
+#persen form label{
+	
+	display:block;
+	padding-bottom:20px;
+
+}	
+#persen form label input{
+
+}
+.text1{
+	background-image:url(../images/username.png);
+	background-position:7px center;	
+}
+.text2{
+	background-image:url(../images/password.png);
+	background-position:8px center;
+	
+}
+.text1, .text2{
+	width:255px;
+	height:40px;	
+	border:1px solid #bbb;
+	background-repeat:no-repeat;
+	padding-left:35px;
+	font-size:14px;
+}
+#persen form p{
+	overflow:hidden;
+}
+
+#persen form p .submit1{
+	background:#67bdcd;
+	font-size:15px;
+	border: 1px solid #67bdcd;
+	padding:13px 50px;
+	float:left;
+	color:#fff;
+	cursor:pointer;	
+}
+#persen form p .submit1:hover{
+	background:#45b1c5;	
+}
+
+#persen form p .submit2{
+	background:none;
+	font-size:15px;
+	border: 1px solid #bbb;
+	padding:13px 50px;
+	float:right;
+	cursor:pointer;
+}
+#persen form p .submit2:hover{
+	background:#e5eaeb;
+}
+#persen form a{
+	text-decoration:none;
+	color:#666;
+	padding-top:22px;
+	float:right;
+	font-size:11px;
+	text-align:right;
+}
+#persen form a:hover{
+	color:#cc0000;}

@@ -1,0 +1,173 @@
+@CHARSET "UTF-8";
+
+#buycart {
+	width:1000px;
+	margin:0 auto;
+	padding-top:40px;
+	padding-bottom:100px;
+}
+#buycart  table{
+	width:100%;
+}
+#buycart  table tr {
+	height:120px;
+
+}
+#buycart  table tr th {
+
+}
+#buycart  table tr td{
+	background:#fcfcfc;
+	font-size:12px;
+	text-align:center;
+	margin:0;
+	padding:0;
+
+}
+#buycart  table .t1{
+	width:10%;
+}
+#buycart  table .t2{
+	width:25%;
+	text-align:right;
+	padding-right:20px;
+}
+
+#buycart  table .t3{
+	width:10%;
+}
+
+#buycart  table .t4{
+	width:18%;
+}
+
+#buycart  table .t5{
+	width:15%;
+}
+
+#buycart  table .t6{
+	width:12%;
+}
+
+#buycart  table .t7{
+	width:10%;
+}
+
+#buycart  table .first {
+	overflow:hidden;
+}
+#buycart  table .first  img{
+	width:80px;
+	height:auto;
+	float:left;
+}
+#buycart  table .first span{
+	float:left;
+	margin-left:10px;
+	height:60px;
+	width:140px;
+	text-align:left;
+}
+#buycart  table .attr {
+	text-align:left;
+}
+
+
+#buycart .show {
+	background:#dbdbdb;
+	line-height:30px;
+	width:100%;
+	overflow:hidden;
+}
+#buycart .show .total {
+	float:right;
+	margin-left:5	0px;
+	padding-right:50px;
+	
+}
+#buycart .show .number {
+	float:right;
+	padding-right:50px;
+}
+#buycart .show  .pricetal{
+	color:red;
+	font-weight:bold;
+}
+#buycart .pay{
+	overflow:hidden;
+	padding-top:20px;
+	
+}
+#buycart .pay .now {
+	float:right;
+	height:50px;
+	width:150px;
+	background:#9F0004;
+
+	line-height:50px;
+	text-align:center;
+	cursor: pointer;
+	letter-spacing:7px;
+	font-size:20px;
+}
+#buycart .pay .now  a{
+		color:#fff;
+}
+
+#buycart  .jiajie{
+	display:block;
+	border: 1px solid red;
+	width:100px;
+	line-height: 26px;
+	margin-left:20px;
+}
+#buycart  .jiajie input {
+	background:none;
+	border:none;
+	height: 26px;
+	width: 26px;
+	text-align: center;
+	cursor: pointer;
+	
+}
+#buycart  .jiajie .num {
+  display:inline-block;
+	width:46px;
+	border-left:1px solid red;
+	border-right:1px solid red;
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

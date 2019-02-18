@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+#intro {
+	background:#333;
+	height:800px;
+}
+#intro .top {
+	padding-top:75px;
+	height:165px;
+	background-image:url(../images/spaceShow.png);
+}
+#intro .us {
+	width:250px;
+	height:90px;
+	background:black;
+	color:#fff;
+	text-align:center;
+	margin:0 auto;
+    opacity:0.7;
+	line-height:28px;
+	padding-top:20px;
+	border: 1px solid #9F0004;
+	font-size:20px;
+}
+#intro .us span {
+	font-size:15px;
+}
+#intro .content {
+	overflow:hidden;
+}
+#intro .word {
+	width:525px;
+	margin-left:150px;
+	float:left;
+	font-size:12px;
+	line-height:22px;
+	color:#858585;
+	padding-top:60px;
+}
+#intro  .pic {
+	float:right;
+	width:400px;
+	height:285px;
+	margin-top:40px;
+	margin-right:170px;
+}
+#intro  .pic img{
+	max-width:400px;
+	height:285px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

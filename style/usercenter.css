@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+#usercenter {
+	overflow:hidden;
+	width:1200px;
+	margin:0 auto;
+	border:1px solid red;
+	padding:20px;
+}
+#usercenter .sidebar{
+	float:left;
+	width:200px;
+	border:1px solid green;
+	min-height:600px;
+}
+#usercenter .sidebar li {
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	margin:10px 0;
+}
+#usercenter .sidebar li.red {
+	color:red;
+}
+
+
+
+#usercenter .content {
+	float:left;
+	min-height:600px;
+	width:960px;
+	border:1px solid blue;
+	margin-left:20px;
+}
+#usercenter .content  ul{
+	overflow:hidden;
+	padding-left:50px;
+	border-bottom:2px solid red;
+}
+#usercenter .content  li {
+	float:left;
+	height:30px;
+	width:150px;
+	text-align:center;
+	line-height:30px;
+	margin:10px 15px;
+}
+ 

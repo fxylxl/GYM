@@ -1,0 +1,126 @@
+@CHARSET "UTF-8";
+
+#reg {
+	width:960px;
+	min-height:600px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+#reg form {
+	padding:20px 10px;
+	margin:20px 0;
+}
+#reg h2{
+    text-align:center;
+    color:#666;
+	font-size:30px;
+}
+#reg h2 a {
+	text-decoration:none;
+}
+#reg h2 a:hover{
+	color:#f60;
+}
+#reg  form dl dd {
+	padding-left:248px;
+}
+#reg  form dl dd img.face {
+	margin-left:80px;
+}
+#reg  form dl dd .text {
+	width:220px;
+	height:30px;	
+	border:1px solid #bbb;
+	background-repeat:no-repeat;
+	padding-left:15px;
+	font-size:14px;
+	margin-bottom:10px;
+}
+#reg form dl dd input.button1 {
+	margin-left:140px;;
+}
+
+
+#login{
+	width:290px;
+	height:600px;
+	margin:0 auto;
+}
+
+
+#login h2{
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+    color:#666;
+	font-size:25px;
+}
+
+#login form dl dd{
+	margin-left:0;
+	display:block;
+	padding-bottom:20px;
+
+}	
+
+#login .text1{
+	background-image:url(../images/username.png);
+	background-position:7px center;	
+}
+#login .text2{
+	background-image:url(../images/password.png);
+	background-position:8px center;
+	
+}
+.text1, .text2{
+	width:255px;
+	height:40px;	
+	border:1px solid #bbb;
+	background-repeat:no-repeat;
+	padding-left:35px;
+	font-size:14px;
+}
+
+#login form p{
+	overflow:hidden;
+}
+
+#login form p .submit1{
+	background:#67bdcd;
+	font-size:15px;
+	border: 1px solid #67bdcd;
+	padding:12px 50px;
+	float:left;
+	color:#fff;
+	cursor:pointer;	
+
+}
+#login form p .submit1:hover{
+	background:#45b1c5;	
+}
+
+#login form p .submit2{
+	background:none;
+	font-size:15px;
+	border: 1px solid #bbb;
+	border: 1px solid #67bdcd;
+	padding:12px 50px;
+	float:right;
+	cursor:pointer;
+}
+#login form p .submit2:hover{
+	background:#e5eaeb;
+}
+#login form a{
+	text-decoration:none;
+	color:#666;
+	padding-top:22px;
+	float:right;
+	font-size:11px;
+	text-align:right;
+}
+#login form a:hover{
+	color:#cc0000;
+}
+
+

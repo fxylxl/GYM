@@ -1,0 +1,163 @@
+@CHARSET "UTF-8";
+#goods {
+}
+.banner{
+	 margin:0 auto; 
+	 height:400px; 
+	 position:relative;
+	overflow:hidden;
+}
+.banner img{
+	height:auto;
+	width:100%;
+}
+.banner .box{
+	position:absolute;
+	bottom:10px;
+	left:540px;	
+	overfloat:hidden;
+}
+.banner  .box li{ 
+	float:left;
+	background-color:#333; 
+	margin:4px; 
+	width:25px; 
+	height:5px; 
+	padding:0; 
+	cursor:pointer;
+}
+.redLi{ background-color:red;}
+
+#nav {
+	overflow:hidden;
+}
+
+#nav .search {
+	float:left;
+	margin:20px;
+	margin-left:500px;
+	width:385px;
+}
+#nav  .buycart, .usercenter {
+	float:right;
+	margin:20px;
+}
+#nav .usercenter {
+	margin-right:80px;
+}
+#nav  .buycart  span {
+	background:red;
+	color:#fff;
+	margin-left:5px;
+	padding-left:8px;
+	padding-right:8px;
+	font-size:14px;
+	border-radius:20px;
+}
+#nav  .buycart a:hover, .usercenter a:hover {
+	color:red;
+}
+
+.search input.sub1 {
+	width:290px;
+	height:28px;
+	border:1px solid #9F0004;
+	padding-left:10px;
+}
+.search input.btn_search {
+	width:80px;
+	line-height:28px;
+	background:#9F0004;
+    border:1px solid #9F0004;
+	color:#fff;
+	cursor:pointer;
+	font-size:15px;
+	letter-spacing:4px;
+}
+#goods .newgoods {
+	width:85%;
+	margin:0 auto;
+	padding-left:30px;
+}
+#goods .newgoods .titles {
+	padding-top:20px;
+	margin-bottom:20px;
+	padding-left:50px;
+	font-size:20px;
+	color:#9F0004;
+}
+#goods .newgoods ul.list {
+	overflow:hidden;
+}
+#goods .newgoods ul.list   li {
+	width:250px;
+	height:310px;
+	border:1px solid #eeeeee;
+	margin-left:20px;
+	margin-bottom:20px;
+	float:left;
+}
+#goods .newgoods ul.list   li:hover {
+		border:1px solid red;
+}
+#goods .newgoods ul.list   li img {
+	width:220px;
+	height:220px;
+	display:block;
+	margin:0 auto;
+}
+#goods .newgoods ul.list   li .name {
+	float:left;
+	font-size:12px;
+	color:gray;
+	letter-spacing:0;
+	padding-left:20px;
+	padding-top:10px;
+}
+#goods .newgoods ul.list   li .price {
+	float:left;
+	font-size:20px;
+	color:red;
+	font-weight:bold;
+	letter-spacing:0;
+	padding-left:20px;
+}
+
+#page {
+	text-align:center;
+	padding:10px;
+	
+}
+#page a {
+	border:1px solid #9F0004;
+	padding:2px 5px;
+	margin:0 2px;
+	color:#9F0004;
+}
+#page a:hover , #page  span.me{
+	color:#fff;
+	border:1px solid #9F0004;
+	background:#9F0004;
+	text-decoration:none;
+}
+#page  span.disabled {
+	border:1px solid #ccc;
+	padding:2px 5px;
+	margin:0 2px;
+	color:#ccc;
+}
+#page  span.me {
+	padding:2px 5px;
+	margin:0 2px;
+}
+#page select.select {
+	width:120px;
+	background:#fff;
+	border:solid 1px #ccc;
+}
+
+
+
+
+
+

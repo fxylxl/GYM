@@ -1,0 +1,178 @@
+@CHARSET "UTF-8";
+body{
+	margin:0; 
+	font-family:'微软雅黑' ;
+}
+ul{ 
+	padding:0; 
+	margin:0;
+}
+li{ 
+	list-style:none;
+	margin:0;
+	padding:0;	
+}
+
+a{ 
+	text-decoration:none; 
+	color:black;
+}
+.nav{ 
+	width:100%; 
+	height:60px; 
+	background-color:#9F0004;
+	position:relative;
+	z-index:9999;
+	
+}
+.nav .bottom{  
+	width:1000px;
+    margin:0 auto; 
+	height:60px;
+
+}
+.nav .bottom .logo{ 
+	width:150px; 
+	height:60px; 
+	float:left; 
+	margin-left:30px;
+
+}
+.nav .bottom .menu{ 
+	float:left;
+	overflow:visible;
+	margin-left:100px;
+}
+.nav .bottom .menu li{ 
+	float:left; 
+	width:120px; 
+	height:50px; 
+	text-align:center; 
+	line-height:20px;
+	font-size:15px; 
+	color:black; 
+	letter-spacing:2px; 
+	position:relative; 
+	padding-top:10px;
+}
+.nav .bottom .menu span{ 
+	color:#333; 
+	font-size:12px; 
+	letter-spacing:0px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+ 
+
+
+.newMenu{
+	 background-color:#FF090F;
+	
+}
+.newMenu a{ color:#fff;}
+
+
+.nav .bottom .menu .childMenu{
+	position:absolute;
+	left:0;
+	top:60px;
+	width:120px;
+	margin:0;
+	padding:0;	
+}
+
+.nav .bottom .menu .childMenu  dd{
+	margin:0;
+	padding:0;	
+	display:block;
+	height:48px;
+	width:118px;
+	text-align:center;
+	line-height:50px;
+	background-color:#9F0004;
+	border:1px solid  #9F0004;
+	opacity:0.7;
+}
+.nav .bottom .menu .childMenu  dd:hover {
+	opacity:1;
+}
+.nav .bottom .menu .childMenu dd a{
+	font-size:13px;
+	color:white;
+}
+
+
+.newDd{
+	background-color:white;
+    opacity:1;
+}
+.newDd a{color:#9F0004;}
+
+
+
+
+#footer {
+	width:100%;
+	height:620px;
+	border-top:1px solid #9F0004;
+}
+#footer .focus {
+	background:#121212;
+	height:380px;
+	padding-top:40px;
+}
+#footer .focus div.top {
+	width:330px;
+	height:95px;	
+	background:#3a3a3a;
+	font-size:25px;
+	line-height:60px;
+	color:#fff;
+	text-align:center;
+	margin:0 auto;
+}
+#footer .focus div.top span {
+	font-size:15px;
+	color:#555550;
+	line-height:15px;
+}
+#footer .focus div.pic {
+	width:550px;
+	height:210px;
+	margin:0 auto;
+	margin-top:40px;
+}
+#footer .focus div.pic img {
+	border:10px solid #9F0004;
+	margin-left:18px;
+	margin-top:20px;
+}
+
+
+
+
+
+
+#footer .information {
+	height:180px;
+	background:#202020;
+	padding-top:30px;
+	padding-left:140px;
+	font-size:12px;
+	color:#858585;
+}
+#footer .information .link {
+	margin-bottom:15px;
+}
+#footer .information   a{
+	color:#858585;
+	display:inlineblock;
+	margin:0 3px;
+}
+#footer .information  a:hover{
+	color:#fff;
+}
+#footer .information .us{
+	line-height:25px;
+}
+
+

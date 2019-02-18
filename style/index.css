@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+#content{
+	background:black;
+}
+.banner{
+	 margin:0 auto; 
+	 max-width:1300px; 
+	 height:600px; 
+	 position:relative;
+	overflow:hidden;
+}
+.box{
+	position:absolute;
+	bottom:10px;
+	left:540px;	
+	overfloat:hidden;
+}
+.box li{ 
+	float:left;
+	background-color:#333; 
+	margin:5px; 
+	width:40px; 
+	height:10px; 
+	padding:0; 
+	cursor:pointer;
+}
+.redLi{ background-color:red;}
+
+
+.line{
+	width:100%;
+	height:1px;
+	border-bottom: 1px solid #9F0004;
+
+} 	
+
+.spaceShow{
+	width:1300px;
+	height:240px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+}
+.storeDisplay{ 
+	width:280px;
+	height:120px;
+	background-color:#3a3a3a;
+	position:absolute;
+	bottom:0;
+	left:50px;
+	font-size:55px;
+	text-align:center;
+	color:white;
+	line-height:55px;
+}
+.storeDisplay span{
+	font-size:28px;
+	color:#55554b;
+	line-height:40px;	
+}
+.show {
+	height:550px;
+	background:yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
